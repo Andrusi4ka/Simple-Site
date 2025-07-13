@@ -33,7 +33,7 @@ body {
   background: none;
   font-size: 30px;
   margin-bottom: 20px;
-  color: #a834cc;
+  color: #34547A;
 }
 @media (max-width: 768px) {
   .hero nav .bars {
@@ -47,7 +47,7 @@ body {
 @media (max-width: 768px) {
   .hero nav ul {
     flex-direction: column;
-    border-bottom: 1px solid #a834cc;
+    border-bottom: 1px solid #34547A;
     padding-bottom: 10px;
   }
 }
@@ -90,7 +90,7 @@ body {
   color: #ffffff;
   text-transform: uppercase;
   font-size: 16px;
-  background-color: #a834cc;
+  background-color: #34547A;
   border: 1px solid transparent;
   border-radius: 2px;
   cursor: pointer;
@@ -101,7 +101,7 @@ body {
   }
 }
 .hero .primary:hover {
-  background-color: #5c275c;
+  background-color: #273f5c;
 }
 
 .about-me {
@@ -125,7 +125,7 @@ body {
 }
 
 .numbers {
-  background-color: #a834cc;
+  background-color: #34547A;
   padding: 80px 0 80px;
 }
 .numbers ul {
@@ -185,7 +185,7 @@ body {
 }
 
 footer {
-  background-color: #a834cc;
+  background-color: #34547A;
   padding: 30px 0 30px;
   color: #ffffff;
   font-size: 14px;
