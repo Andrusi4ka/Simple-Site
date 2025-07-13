@@ -1,7 +1,4 @@
-$main-color: #34547A;
-$main-color-hov: #273f5c;
-$tablet: 768px;
-$mobil: 480px;
+@use 'index' as *;
 
 body {
     font-size: 16px;
@@ -115,26 +112,8 @@ body {
     }
 }
 
-.about-me,
-.video {
-    padding: 80px 0 80px;
-    text-align: center;
-
-    h2 {
-        font-size: 32px;
-        font-weight: 500;
-        padding: 0 0 50px;
-
-        @media (max-width: $tablet) {
-            font-size: 28px;
-        }
-
-        &+p {
-            line-height: 30px;
-            max-width: 540px;
-            margin: 0 auto;
-        }
-    }
+.about-me {
+    @include h2_center;
 }
 
 .numbers {
@@ -178,6 +157,8 @@ body {
 }
 
 .video {
+    @include h2_center;
+
     p {
         padding: 0 0 50px;
     }

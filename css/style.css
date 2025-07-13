@@ -33,7 +33,7 @@ body {
   background: none;
   font-size: 30px;
   margin-bottom: 20px;
-  color: #34547A;
+  color: #a834cc;
 }
 @media (max-width: 768px) {
   .hero nav .bars {
@@ -47,7 +47,7 @@ body {
 @media (max-width: 768px) {
   .hero nav ul {
     flex-direction: column;
-    border-bottom: 1px solid #34547A;
+    border-bottom: 1px solid #a834cc;
     padding-bottom: 10px;
   }
 }
@@ -90,7 +90,7 @@ body {
   color: #ffffff;
   text-transform: uppercase;
   font-size: 16px;
-  background-color: #34547A;
+  background-color: #a834cc;
   border: 1px solid transparent;
   border-radius: 2px;
   cursor: pointer;
@@ -101,35 +101,31 @@ body {
   }
 }
 .hero .primary:hover {
-  background-color: #273f5c;
+  background-color: #5c275c;
 }
 
-.about-me,
-.video {
+.about-me {
   padding: 80px 0 80px;
   text-align: center;
 }
-.about-me h2,
-.video h2 {
+.about-me h2 {
   font-size: 32px;
   font-weight: 500;
   padding: 0 0 50px;
 }
 @media (max-width: 768px) {
-  .about-me h2,
-  .video h2 {
+  .about-me h2 {
     font-size: 28px;
   }
 }
-.about-me h2 + p,
-.video h2 + p {
+.about-me h2 + p {
   line-height: 30px;
   max-width: 540px;
   margin: 0 auto;
 }
 
 .numbers {
-  background-color: #34547A;
+  background-color: #a834cc;
   padding: 80px 0 80px;
 }
 .numbers ul {
@@ -157,6 +153,25 @@ body {
   font-weight: 500;
 }
 
+.video {
+  padding: 80px 0 80px;
+  text-align: center;
+}
+.video h2 {
+  font-size: 32px;
+  font-weight: 500;
+  padding: 0 0 50px;
+}
+@media (max-width: 768px) {
+  .video h2 {
+    font-size: 28px;
+  }
+}
+.video h2 + p {
+  line-height: 30px;
+  max-width: 540px;
+  margin: 0 auto;
+}
 .video p {
   padding: 0 0 50px;
 }
@@ -170,7 +185,7 @@ body {
 }
 
 footer {
-  background-color: #34547A;
+  background-color: #a834cc;
   padding: 30px 0 30px;
   color: #ffffff;
   font-size: 14px;
