@@ -1,6 +1,6 @@
 # Development of "Simple Site" based on Figma Layout
 
-**[Result]**<br><br>
+**[Result](https://andrusi4ka.github.io/Simple-Site/)**<br><br>
 
 **Task:**
 
